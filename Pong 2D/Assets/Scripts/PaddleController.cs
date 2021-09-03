@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PaddleController : MonoBehaviour
 {
-  public float kecepatan;
-    public string axis;
-    public float batasAtas;
-    public float batasBawah;
+    public float batasAtas = 1f;
+    public float batasBawah = -1f;
+    public float kecepatan = 7;
 
+    public string axis = "Vertical1";
     // Start is called before the first frame update
     void Start()
     {
@@ -18,16 +18,22 @@ public class PaddleController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-float gerak = Input.GetAxis (axis) * kecepatan * Time.deltaTime;
- float nextPos = transform.position.y + gerak;
- if (nextPos > batasAtas) {
- gerak = 0;
- }
- if (nextPos < batasBawah) {
-     gerak = 0;
-}
- transform.Translate (0, gerak, 0);
- }
+      
+        
+        float gerak = Input.GetAxis(axis) * kecepatan * Time.deltaTime;
+          
+        float nextPos = transform.position.y + gerak;
+        if(nextPos > batasAtas)
+        {
+            gerak = 0;
+        }
+        if (nextPos < batasBawah)
+        {
+            gerak = 0;
+        }
+        transform.Translate(0, gerak, 0);
+      
+  }
 
 }
 

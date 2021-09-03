@@ -20,13 +20,14 @@ public class PaddleController2 : MonoBehaviour
     {
 float gerak = Input.GetAxis (axis) * kecepatan * Time.deltaTime;
  float nextPos = transform.position.y + gerak;
+ transform.Translate (0, gerak, 0);
  if (nextPos > batasAtas) {
  gerak = 0;
  }
  if (nextPos < batasBawah) {
      gerak = 0;
 }
- transform.Translate (0, gerak, 0);
+ 
  }
 
 }
