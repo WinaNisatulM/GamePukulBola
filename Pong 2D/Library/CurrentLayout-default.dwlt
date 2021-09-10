@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 888
     height: 767
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 58
+  controlID: 80
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -338,19 +338,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: 96
   m_LastProjectPath: D:\Github\GamePukulBola\Pong 2D
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 263a0000
-    m_LastClickedID: 14886
+    m_SelectedIDs: 283a0000
+    m_LastClickedID: 14888
     m_ExpandedIDs: 00000000183a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -502,9 +502,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: aa3d0000
-      m_LastClickedID: 15786
-      m_ExpandedIDs: f0f8ffff1ef9ffff30f9ffffe0f9ffffe4f9ffff44faffff6efaffff64fbffff983d0000
+      m_SelectedIDs: fa360000
+      m_LastClickedID: 0
+      m_ExpandedIDs: e4f9ffffeef9ffff64fbffff3c3900009e390000b63a0000183b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
